@@ -1,6 +1,5 @@
-#include"libOne.h"
+#include "GAME.h"
 void gmain() {
-    window(1920, 1080, full);
-    while(notQuit) {
-    }
+	GAME game;
+	game.run();
 }
